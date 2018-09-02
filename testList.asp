@@ -18,7 +18,7 @@
         Do While Not rs.EOF
             Response.Write "<TR><TD>" & rs("TestName") & "</TD>"
             Response.Write "<TD>" & rs("TestType") & "</TD>"
-            Response.Write "<TD>" & rs("UnitPrice") & "</TD>"
+            Response.Write "<TD>" & rs("UnitPrice") &  "</TD></TR>"
         rs.MoveNext
 
         Loop
