@@ -52,14 +52,14 @@
         <div class="row">
             <div class="col-md-2">
                 <div class="sidenav">
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
+                    <a href="testsetup.asp">Test Setup</a>
+                    <a href="testList.asp">Test Lists</a>
                     <a href="#clients">Clients</a>
                     <a href="#contact">Contact</a>
                 </div>
             </div>
             <div class="col-md-10 bg-light">
-                <div class="card mx-auto mt-5" style="width:60%;">
+                <!-- <div class="card mx-auto mt-5" style="width:60%;">
                     <div class="card-header bg-primary">This is a header</div>
                     <div class="card-body">
                         <form>
@@ -83,7 +83,8 @@
                             <button class="btn btn-primary btn-lg">Submit</button>
                         </form>
                     </div>
-                </div>
+                </div> -->
+            <% call BodyContent %>
             </div>
         </div>
 
